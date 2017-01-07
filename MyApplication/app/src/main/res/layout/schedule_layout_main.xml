@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:background="#e31837"
+            android:layout_width="181dp"
+            android:layout_height="wrap_content"
+            android:weightSum="1">
+
+            <net.incus.cyprus.AutoResizeText
+                android:layout_height="wrap_content"
+                android:text="Seth Dickson"
+                android:gravity="left"
+                android:textColor="#ffffff"
+                android:textSize="22dp"
+                android:id="@+id/textViewDesc"
+                android:layout_width="match_parent"
+                android:maxHeight="20dp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:background="#e31837"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:weightSum="1">
+
+            <net.incus.cyprus.AutoResizeText
+                android:layout_height="match_parent"
+                android:text="12:00 PM - 12:00 PM"
+                android:gravity="right"
+                android:textSize="17dp"
+                android:textColor="#ffffff"
+                android:id="@+id/textViewName"
+                android:maxHeight="30dp"
+                android:layout_width="match_parent" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height=".9dp"
+        android:background="#ffffff"/>
+</LinearLayout>
